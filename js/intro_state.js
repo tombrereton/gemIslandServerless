@@ -13,25 +13,25 @@ var introState = {
         });
         startText.anchor.setTo(0.5);
 
-        var freeMedalText = game.add.text(game.world.centerX, game.world.centerY - HEIGHT * 2 / 16, 'Swap gems to make a match of 3+.', {
+        var freeMedalText = game.add.text(game.world.centerX, game.world.centerY - HEIGHT * 2 / 16, 'A Match 3 Game!', {
             font: '22px Arial',
             fill: '#000'
         });
         freeMedalText.anchor.setTo(0.5);
 
-        var freeMedalText = game.add.text(game.world.centerX, game.world.centerY - HEIGHT * 1 / 16, 'Win by removing all Medals under the ice!', {
+        var freeMedalText = game.add.text(game.world.centerX, game.world.centerY - HEIGHT * 1 / 16, 'Uncover all the silver coins.', {
             font: '22px Arial',
             fill: '#000'
         });
         freeMedalText.anchor.setTo(0.5);
 
-        var freeMedalText = game.add.text(game.world.centerX, game.world.centerY + HEIGHT * 1 / 16, 'Break ice by matching gems on top of it.', {
+        var freeMedalText = game.add.text(game.world.centerX, game.world.centerY + HEIGHT * 1 / 16, 'Break ice by matching gems', {
             font: '22px Arial',
             fill: '#000'
         });
         freeMedalText.anchor.setTo(0.5);
 
-        var freeMedalText = game.add.text(game.world.centerX, game.world.centerY + HEIGHT * 2 / 16, 'Medal shown below.', {
+        var freeMedalText = game.add.text(game.world.centerX, game.world.centerY + HEIGHT * 2 / 16, 'Coin shown below.', {
             font: '22px Arial',
             fill: '#000'
         });

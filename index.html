@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,15 +10,17 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/png" href="img/logo_favicon.png">
     <meta name="description"
-          content="Software engineer interested in machine learning, A.I., and the challenges of big data and concurrency.">
+        content="Software engineer interested in machine learning, A.I., and the challenges of big data and concurrency.">
     <meta name="keywords"
-          content="Tom, Thomas, Lewis, software, engineer, developer, programmer, coder, code, machine, learning, artificial intelligence, big data">
+        content="Tom, Thomas, Lewis, software, engineer, developer, programmer, coder, code, machine, learning, artificial intelligence, big data">
     <meta name="author" content="Tom Brereton">
     <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
         ga('create', 'UA-86535105-1', 'auto');
         ga('send', 'pageview');
@@ -25,20 +28,11 @@
     </script>
 </head>
 
-<body>
-<header class="hero is-fullheight" id="hero">
-    <div class="hero-body">
-        <div class="container has-text-centered">
-            <div class="columns">
-                <div class="column" align="center">
-                    <div id="game"></div>
-                    <div class="row" style="margin-top: 10px">
-                    </div>
-                </div>
-            </div>
-        </div>
+<body class="tlt-container">
+    <div class="game-container">
+        <div id="game"></div>
     </div>
-</header>
+</body>
 
 
 <!--Javascript files-->
@@ -54,4 +48,5 @@
 <script src="js/play_state.js"></script>
 <script src="js/threematch.js"></script>
 </body>
+
 </html>

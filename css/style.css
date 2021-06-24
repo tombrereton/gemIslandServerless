@@ -141,3 +141,17 @@ input[type="checkbox"]:checked + label:before {
     transform: rotate(45deg);
 }
 
+.tlt-container {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2d3142;
+}
+
+.game-container {
+
+}
